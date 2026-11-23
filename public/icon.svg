@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="novo-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#6d5bd0"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#novo-bg)"/>
+  <path d="M148 168 L148 344 M148 168 L266 344 M266 168 L266 344" stroke="#ffffff" stroke-width="36" stroke-linecap="round" fill="none"/>
+  <rect x="290" y="148" width="146" height="222" rx="26" fill="#ffffff" opacity="0.96"/>
+  <rect x="314" y="188" width="98" height="14" rx="7" fill="#a78bfa"/>
+  <rect x="314" y="222" width="70" height="14" rx="7" fill="#c4b5fd"/>
+  <circle cx="338" cy="296" r="13" fill="#f59e0b"/>
+  <circle cx="382" cy="296" r="13" fill="#a78bfa"/>
+  <rect x="314" y="330" width="98" height="10" rx="5" fill="#e9d5ff"/>
+  <circle cx="424" cy="104" r="15" fill="#fde68a"/>
+  <path d="M424 84 L429 99 L444 104 L429 109 L424 124 L419 109 L404 104 L419 99 Z" fill="#fde68a"/>
+  <circle cx="104" cy="404" r="15" fill="#c4b5fd"/>
+  <circle cx="174" cy="436" r="9" fill="#fde68a"/>
+</svg>

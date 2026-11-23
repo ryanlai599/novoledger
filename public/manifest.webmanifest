@@ -1,0 +1,11 @@
+{
+  "name": "NovoLedger",
+  "short_name": "NovoLedger",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f5f6fb",
+  "theme_color": "#6d5bd0",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

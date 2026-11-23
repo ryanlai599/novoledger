@@ -1,0 +1,11 @@
+export const MAX_ENVELOPE_BYTES: number;
+export function isToken(value: unknown): value is string;
+export function newAccessToken(): string;
+export function validateEnvelope(envelope: string): { salt: Uint8Array; iv: Uint8Array; data: Uint8Array };
+export function digest(value: string): Promise<string>;
+export function tokenDigest(token: string): Promise<string>;
+export function accountFor(token: string): Promise<string>;
+export function isOperationId(value: unknown): value is string;
+export function isRevision(value: unknown): value is number;
+export function seal(json: string, secret: string, metadata: { account: string; revision: number; operationId: string }): Promise<string>;
+export function open(envelope: string, secret: string, metadata: { account: string; revision: number; operationId: string }): Promise<string>;
